@@ -1,7 +1,7 @@
 
 function renderRectangle (rectangle) {
   return `
-        <div class="text-center mt-5">
+        <div class="d-flex justify-content-center">
             <div style="width:${rectangle.width}px;height:${rectangle.height}px;background-color:${rectangle.color}"></div>
         </div>
     `
